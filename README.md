@@ -5,7 +5,15 @@ Application to stream data from Cosm to Timestreams. Developed as part of the [R
 
 Usage
 -----
-java -jar timebridge.jar [String cosmFeedUrl] [String timestreamUrl] [String tsPub] [String tsPri] [int interval seconds]
+1. Set up an account on Cosm
+2. In Cosm add an API key
+3. Make a note of the URL and datastream of the Cosm data that you want to stream
+4. Compose a URL for the datastream like so (replacing the items with : before them with your values)--  http://api.cosm.com/v2/feeds/:id.json?key=:apikey&interval=:interval&datastreams=:name 
+5. In Timestreams add a new measurement container
+6. Make a note of the measurement container's table name and compose a URL for the datastream such as --
+http://timestreams.wp.horizon.ac.uk/wp-content/plugins/timestreams/2/measurements/:tablename 
+7. Go to timestreams>API keys, create new api keys and reveal the private key
+8. java -jar timebridge.jar [String cosmFeedUrl] [String timestreams measurement container Url] [timestreams public key] [timestreams private key] [interval in seconds for how often to poll the Cosm feed]
 
 Example parameters:
 -------------------
