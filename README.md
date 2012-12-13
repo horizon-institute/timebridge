@@ -1,7 +1,7 @@
 Timebridge
 =============
 
-Application to stream data from Cosm to Timestreams.
+Application to stream data from Cosm to Timestreams. Developed as part of the [Relate project](http://horizab1.miniserver.com/relate/).
 
 Usage
 -----
@@ -14,6 +14,12 @@ http://timestreams.wp.horizon.ac.uk/wp-content/plugins/timestreams/2/measurement
 a135b81ae5 
 ********* 
 20
+
+Additional Libraries
+--------------------
+To run Timebridge you need lib subdirectory with [commons-codec-1.7.jar]( https://commons.apache.org/codec/download_codec.cgi)
+
+To compile the Java code, you will need [the JSON-java files](https://github.com/douglascrockford/JSON-java).
 
 Contributing
 ------------
