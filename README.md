@@ -20,7 +20,7 @@ Example parameters:
 http://api.cosm.com/v2/feeds/84353.json?key=*****&interval=1&datastreams=kwh 
 http://timestreams.wp.horizon.ac.uk/wp-content/plugins/timestreams/2/measurements/wp_1_ts_EnergyUsage_211 
 a135b81ae5 
-********* 
+private key...
 20
 
 Additional Libraries
